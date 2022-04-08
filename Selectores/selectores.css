@@ -1,0 +1,63 @@
+
+form{
+  border-radius: 1em;
+  border-width: 3em;
+  border-style: solid;
+  border-color: #91a8ee;
+  background-color: #91a8ee;
+  
+  margin-left:17.5% ;
+	margin-bottom: 1em;
+	width: 60%;
+	align-content: left;
+}
+body{
+  /*background-color: lightgreen;*/
+  background-color: #ffffff;
+  background-blend-mode: luminosity;
+  font-family: sans-serif;
+  
+  align-content: center;
+}
+.pregunta{
+  font-weight:  bold;
+}form>*{
+
+	border-radius: 0.5em;
+	border: none;
+
+}
+label{
+  margin-bottom: 0.5em;
+}
+input[type=text],input[type=email],input[type=date]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  margin: 8px 0;
+}
+/*body{
+	background-color: black;
+}*/
+input[type=submit]{
+  background-color: #4c6dae;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+input[type=submit]:hover{
+  background-color: #8288de;
+}
